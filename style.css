@@ -165,6 +165,7 @@ header {
 }
 
 .card {
+    overflow: hidden;
     justify-content: center;
     width: 275px;
     height: 425px;
@@ -176,19 +177,11 @@ header {
 }
 
 .card img {
-    height: 30%;
+    width: 75%;
     margin: 1rem;
     border: 1px solid #333;
     border-radius: 15%;
 }
-
-/* .card h3 {
-
-}
-
-.card p {
-
-} */
 
 /*Make it mobile friendly.*/
 @media (max-width: 768px) {
@@ -238,6 +231,7 @@ header {
     
     .home-detail p {
         margin-bottom: 30px;
+        padding: 0 10px;
     }
 
     .btn {
